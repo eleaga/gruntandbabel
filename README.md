@@ -27,7 +27,7 @@ Devemos criar o arquivo package.json com ex:
 ``` 
 
 Em seguinda criaremos nosso Gruntile.js
-
+``` 
 module.exports = function(grunt) {
 
   grunt.initConfig({
@@ -123,7 +123,10 @@ module.exports = function(grunt) {
 
 
 };
+``` 
 
-
+Criamos assim o ``` grunt watch ``` irá:
+  Sempre que alterarmos algo na pasta /SASS irá criar um novo css na pasta /css
+  Sempre que alterarmos algo na pasta /babel irá converter os arquivos em ES6, testar com qunit, testar com o jslint, minificar e concatenar na pasta ```dist/Apresentacao-grunt.min.js```
 
 
