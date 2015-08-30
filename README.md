@@ -9,7 +9,7 @@ npm install -g grunt-cli
 Configurando as dependencias 
 Devemos criar o arquivo package.json com ex:
 
-
+``` 
 {
   "name": "Apresentacao-grunt",
   "version": "0.1.0",
@@ -24,7 +24,7 @@ Devemos criar o arquivo package.json com ex:
     "grunt-contrib-compass": "*"
   }
 }
-
+``` 
 
 Em seguinda criaremos nosso Gruntile.js
 
