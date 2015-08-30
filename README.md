@@ -1,5 +1,5 @@
 # gruntandbabel
-Grunt para palestra sobre grunt e ES6.
+Grunt para palestra sobre grunt.
 
 Instalando o grunt global
 
@@ -132,5 +132,4 @@ Criamos assim o ``` grunt watch ``` que irá:
 </ol>
   
   
-
-
+#PRONTINHO#
