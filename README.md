@@ -125,8 +125,12 @@ module.exports = function(grunt) {
 };
 ``` 
 
-Criamos assim o ``` grunt watch ``` irá:
-  Sempre que alterarmos algo na pasta /SASS irá criar um novo css na pasta /css
-  Sempre que alterarmos algo na pasta /babel irá converter os arquivos em ES6, testar com qunit, testar com o jslint, minificar e concatenar na pasta ```dist/Apresentacao-grunt.min.js```
+Criamos assim o ``` grunt watch ``` que irá:
+<ol>
+  <li>Sempre que alterarmos algo na pasta /SASS irá criar um novo css na pasta /css</li>
+  <li>Sempre que alterarmos algo na pasta /babel irá converter os arquivos em ES6, testar com qunit, testar com o jslint, minificar e concatenar na pasta ```dist/Apresentacao-grunt.min.js```</li>
+</ol>
+  
+  
 
 
