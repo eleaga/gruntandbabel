@@ -9,4 +9,3 @@ function alterandoI(){
 alterandoI();
 console.log(`${i} novamente fora da funcao é 0`);
 
-
